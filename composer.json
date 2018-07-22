@@ -1,0 +1,21 @@
+{
+    "name": "arvelyon/service",
+    "description": "The service manager",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael M Langitan",
+            "email": "michaelmlangitan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">= 7.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Arvelyon\\Service\\":"src"
+        }
+    }
+}
